@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&family=Roboto+Slab:wght@100;200;300;400;500;600&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400&display=swap');
+
+* {
+    font-family: 'Roboto Slab', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.face {
+    background: url(./Assets/tsaki-content/rsaki.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: auto;
+    position: relative;
+    z-index: 1;
+}
+.overlay {
+    z-index: -1;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    opacity: 70%;
+    }
+
+.hover:hover {
+    cursor: pointer;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 32px;
+    width: 30px;
+    padding-top: 109px;
+
+}
+
+.material-symbols-outlined {
+    color: #fcfcfc;
+    padding: 13px 40px;
+}
+.tools {
+    position: relative;
+}
+.tools-text{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    left: 74px;
+    top: 15px;
+    font-size: 1.2rem;
+    color: #fcfcfc;
+    opacity: 0.7;
+    white-space: nowrap;
+    visibility: hidden;
+    z-index: 1;
+}
+.tools:hover > .tools-text {
+    visibility: visible;
+
+}
+.brief {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fcfcfc;
+}
+h1 {
+    display: block;
+    font-size: 30px; 
+    padding: 10px 30px;   
+}
+.thumbnail img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 150px;
+  }
+  
+  /* Add a hover effect (blue shadow) */
+
