@@ -1,0 +1,96 @@
+/* https://fonts.google.com/ */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,500&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+h1 {
+font-size: 40px;
+font-weight: 500;
+}
+
+p {
+    padding: 6px 24px 16px 24px;
+}
+   
+.banner-wrap {
+    background: url(./assets/Homepage.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* Opening nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 56px;
+    padding: 0% 32px;
+
+}
+ .nav-item {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.nav-item:hover {
+    border-bottom-left-radius: 9999px;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    background-color: rgb(0 0 0 / 5%);
+}
+/* Closing Nav */
+
+.logo {
+    width: 120px;
+    height: 24px;
+}
+
+main {
+    text-align: center;
+    height: calc(100vh - 56px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title-section {
+margin-top: calc(157px-56px);
+}
+
+.actions-area {
+    margin-bottom: 100px;
+}
+
+/* openning button content */
+button {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: rgb(0 0 0 / 5%);
+    height: 40px;
+    width: 254px;
+    padding: 7px 27px;
+    cursor: pointer;
+    border-top-left-radius: 9999px;
+    border-top-right-radius: 9999px;
+    border-bottom-right-radius: 9999px;
+    margin-right: 15px;
+    border-bottom-left-radius: 9999px;
+}
+.btn-light {
+    background-color:rgba(244, 244, 244, 0.8) ;
+}
+.btn-dark {
+    background-color: rgba(18, 29, 39, 0.65) ;
+}
+/* closing button content */
